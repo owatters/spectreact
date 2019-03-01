@@ -1,0 +1,34 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node nodemon.js",
+    "prestart": "npm install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "express": "4.16.4",
+    "mysql": "2.16.0",
+    "nodemon": "1.18.9",
+    "winston": "3.2.1",
+    "axios": "0.18.0",
+    "promise-mysql": "3.3.1"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "node_modules/*"
+    ],
+    "watch": ".",
+    "verbose": true,
+    "ext": "js,jsx,json",
+    "legacyWatch": true
+  }
+}
