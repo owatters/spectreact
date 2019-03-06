@@ -1,7 +1,7 @@
 {
   "name": "fullstack-boilerplate",
   "version": "1.0.0",
-  "description": "Fullstack boilerplate using Bulma",
+  "description": "Fullstack boilerplate using Spectre CSS",
   "babel": {
     "presets": [
       "@babel/preset-env",
