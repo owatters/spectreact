@@ -2,7 +2,7 @@
   "name": "spectre-react-docker-boilerplate",
   "version": "1.0.0",
   "description": "Fullstack boilerplate using Spectre CSS",
-  "repository": "https://github.com/owattersIT/spectre-react-docker-boilerplate.git",
+  "repository": "https://github.com/owatters/spectre-react-docker-boilerplate.git",
   "author":"Amit Gupta <amit@owatters.com>",
     "babel": {
     "presets": [
