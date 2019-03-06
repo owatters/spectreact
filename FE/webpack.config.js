@@ -11,7 +11,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname,"public"),
  
-    filename: 'bundle[hash].js'
+    filename: 'js/bundle[hash].js'
   },
   module: {
     rules: [

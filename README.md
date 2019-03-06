@@ -1,6 +1,6 @@
-# bulma-react-docker-boilerplate
+# spectre-react-docker-boilerplate
 
-### This is a boilerplate to kickstart the project based on ReactJS, Bulma and NodeJS APIs in docker environment.
+### This is a boilerplate to kickstart the project based on ReactJS, Spectre CSS and NodeJS APIs in docker environment. It also has FontAwesome react component and Python docker setup
 > 
 Run docker-compose up web to bring up the -
 > 
@@ -17,4 +17,6 @@ Alternatively,
 -- `docker-compose up webpack` brings up the webpack container
  > 
 -- `docker-compose up nginx ` brings up the nginx container
+ > 
+-- `docker-compose up python ` brings up the python container
  > 

@@ -3,11 +3,10 @@ import ReactDOM from "react-dom";
 
 import "./style.scss";
 
-export default class Sample extends Component {
+export default class FaIcon extends Component {
 	render() {
 		return (
-			<button className="sample"> Sample
-			</button>
+			<i className={this.props.className} />
 		)
 	}
 }

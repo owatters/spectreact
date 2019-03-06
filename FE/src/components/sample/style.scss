@@ -1,5 +1,8 @@
-@import "bulma/sass/utilities/_all.sass";
+@import "spectre.css/src/spectre.scss";
 
-.sample{
-	background-color: grey;
+.sample {
+    @extend .btn;
+    @extend .btn-primary;
+
+
 }

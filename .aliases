@@ -1,0 +1,12 @@
+alias dc="docker-compose"
+alias d="docker"
+alias de="d exec -it "
+alias dl="d container ls"
+alias dp="d system prune"
+alias dcup="dc up"
+alias g="git"
+alias gc="g commit"
+alias gpush="g push"
+alias gpull="g pull"
+alias gr="g reset"
+

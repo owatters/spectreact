@@ -49,5 +49,3 @@ services:
       - ./BE:/BE
 
     
-    
-    command: "/bin/bash -c 'cd /FE  && npm start'"
