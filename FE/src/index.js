@@ -9,32 +9,11 @@ import Modal from "./components/Modal";
 import "./index.scss";
 import Pagination from "./components/Pagination";
 import PaginationItem from "./components/PaginationItem";
+import Tooltip from "./components/Tooltip";
 
 ReactDOM.render(
   <div>
-    <Pagination className="">
-    <PaginationItem className="disabled">
-    <a href="#" tabIndex="-1">Previous</a>
-  </PaginationItem>
-  <PaginationItem className=" active">
-    <a href="#">1</a>
-  </PaginationItem>
-  <PaginationItem >
-    <a href="#">2</a>
-  </PaginationItem>
-  <PaginationItem  >
-    <a href="#">3</a>
-  </PaginationItem>
-  <PaginationItem  >
-    <span>...</span>
-  </PaginationItem>
-  <PaginationItem  >
-    <a href="#">12</a>
-  </PaginationItem>
-  <PaginationItem  >
-    <a href="#">Next</a>
-  </PaginationItem>
-    </Pagination>
+    <Tooltip text="Hello">Hello</Tooltip>
   </div>,
   document.querySelector("#root")
 );
