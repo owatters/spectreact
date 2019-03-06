@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Fullstack boilerplate using Spectre CSS",
   "repository": "https://github.com/owatters/spectre-react-docker-boilerplate.git",
-  "author":"Amit Gupta <amit@owatters.com>",
-    "babel": {
+  "author": "Amit Gupta <amit@owatters.com>",
+  "babel": {
     "presets": [
       "@babel/preset-env",
       "@babel/preset-react"
@@ -50,6 +50,3 @@
     "prestart": "npm  install "
   }
 }
-
-  
-  

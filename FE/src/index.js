@@ -3,17 +3,15 @@ import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 
 import FaIcon from "./components/FaIcon";
-import Sample from "./components/Sample";
+import Button from "./components/Button";
 
 import "./index.scss";
 
 ReactDOM.render(
   <div>
-
-    <FaIcon className="fa fa-eye" />
-    <br>
-    </br>
-    <Sample />
+    <Button className="primary">
+      <FaIcon className="fa fa-eye" />
+      </Button>
   </div>,
   document.querySelector("#root")
 );
