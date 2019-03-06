@@ -7,27 +7,34 @@ import Navbar from "./components/Navbar";
 import Modal from "./components/Modal";
 
 import "./index.scss";
+import Pagination from "./components/Pagination";
+import PaginationItem from "./components/PaginationItem";
 
 ReactDOM.render(
   <div>
-    
-    <Modal className="active">
-    <a href="#close" className="modal-overlay" aria-label="Close"></a>
-  <div className="modal-container">
-    <div className="modal-header">
-      <a href="#close" className="btn btn-clear float-right" aria-label="Close"></a>
-      <div className="modal-title h5">Modal title</div>
-    </div>
-    <div className="modal-body">
-      <div className="content">
-       Hello
-      </div>
-    </div>
-    <div className="modal-footer">
-      
-    </div>
-  </div>
-    </Modal>
+    <Pagination className="">
+    <PaginationItem className="disabled">
+    <a href="#" tabIndex="-1">Previous</a>
+  </PaginationItem>
+  <PaginationItem className=" active">
+    <a href="#">1</a>
+  </PaginationItem>
+  <PaginationItem >
+    <a href="#">2</a>
+  </PaginationItem>
+  <PaginationItem  >
+    <a href="#">3</a>
+  </PaginationItem>
+  <PaginationItem  >
+    <span>...</span>
+  </PaginationItem>
+  <PaginationItem  >
+    <a href="#">12</a>
+  </PaginationItem>
+  <PaginationItem  >
+    <a href="#">Next</a>
+  </PaginationItem>
+    </Pagination>
   </div>,
   document.querySelector("#root")
 );
