@@ -15,10 +15,14 @@ import TileTitle from "./components/TileTitle";
 import TileSubtitle from "./components/TileSubtitle";
 import Panel from "./components/Panel";
 import Divider from "./components/Divider";
+import Display from "./components/Display";
+import Lables from "./components/Lables";
+
+
 
 ReactDOM.render(
   <div>hello
-      <Divider data="OR" orientation="vertical"></Divider>
+  <Lables> Hello Neeraj</Lables>
   </div>
 
   , document.getElementById("root"))
