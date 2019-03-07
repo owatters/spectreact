@@ -8,7 +8,7 @@ import ModalContainer from "./components/modalContainer";
 import ModalHeader from "./components/modalHeader";
 import ModalBody from "./components/modalBody";
 import ModalFooter from "./components/modalFooter";
-import Badges from "./FE/src/components/Badges";
+import Badges from "./components/Badges";
 
 ReactDOM.render(
   //   <div>hello</div>,
