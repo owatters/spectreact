@@ -25966,33 +25966,19 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
 
-_reactDom.default.render(_react.default.createElement(_Step.default, {
-  className: "hello"
-}, _react.default.createElement(_StepItem.default, {
-  className: "hi"
-}, _react.default.createElement("a", {
-  href: "#",
-  class: "tooltip",
-  "data-tooltip": "Step 1"
-}, "Step 1")), " ", _react.default.createElement(_StepItem.default, {
-  className: "hi"
-}, _react.default.createElement("a", {
-  href: "#",
-  class: "tooltip",
-  "data-tooltip": "Step 2"
-}, "Step 2")), " ", _react.default.createElement(_StepItem.default, {
-  className: "hi"
-}, _react.default.createElement("a", {
-  href: "#",
-  class: "tooltip",
-  "data-tooltip": "Step 3"
-}, "Step 3")), " ", _react.default.createElement(_StepItem.default, {
-  className: "hi"
-}, _react.default.createElement("a", {
-  href: "#",
-  class: "tooltip",
-  "data-tooltip": "Step 4"
-}, "Step 4"))), document.getElementById("root"));
+_reactDom.default.render( //   <Step className="hello">
+//     <StepItem className="hi">
+//       <a href="#" class="tooltip" data-tooltip="Step 1">
+//         Step 1
+//       </a>
+//     </StepItem>{" "}
+//     <StepItem className="hi">
+//       <a href="#" class="tooltip" data-tooltip="Step 2">
+//         Step 2
+//       </a>
+//     </StepItem>{" "}
+//   </Step>,
+document.getElementById("root"));
 },{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","./components/Select":"components/Select/index.js","./FE/src/components/Step":"FE/src/components/Step/index.js","./FE/src/components/StepItem":"FE/src/components/StepItem/index.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
