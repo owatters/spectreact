@@ -1,0 +1,5 @@
+@import "~spectre.css/src/spectre.scss";
+
+.accordion-body {
+    @extend .accordion-body;
+}

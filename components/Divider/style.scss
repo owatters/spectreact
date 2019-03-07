@@ -1,0 +1,10 @@
+@import "~spectre.css/src/spectre.scss";
+
+.divider{   
+        @extend .divider; 
+        @extend .text-center;
+}
+
+.vertical {   
+    @extend .divider-vert;
+}

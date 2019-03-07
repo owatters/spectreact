@@ -1,0 +1,28 @@
+@import "~spectre.css/src/spectre.scss";
+
+.label{
+    @extend .label;
+}
+.success {
+    @extend .label;
+    @extend .label-success;
+}
+
+.primary {
+    @extend .label;
+    @extend .label-primary;
+}
+
+.secondary{
+    @extend .label;
+    @extend .label-secondary;
+}
+
+.warning{
+    @extend .label;
+    @extend .label-warning;
+}
+.error{
+    @extend .label;
+    @extend .label-error;
+}
