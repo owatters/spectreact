@@ -1,0 +1,15 @@
+@import "~spectre.css/src/spectre.scss";
+
+.dropDown{
+    @extend .dropdown;
+    
+    .dropdown-toggle{
+        @extend .dropdown-toggle;
+        .icon{
+            @extend .icon;
+            margin-left:5px;
+
+        }
+
+    }
+}
