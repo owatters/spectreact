@@ -8,18 +8,13 @@ import ModalContainer from "./components/modalContainer";
 import ModalHeader from "./components/modalHeader";
 import ModalBody from "./components/modalBody";
 import ModalFooter from "./components/modalFooter";
-import Badges from "./components/Badges";
+import Menu from "./components/Menu";
+import MenuItem from "./components/MenuItem";
+import MenuItemDivider from "./components/MenuItemDivider";
+import FormCheckBox from "./components/FormCheckBox";
+import MenuBadge from "./components/MenuBadge";
+import DropDownMenu from "./components/DropDownMenu";
 
 ReactDOM.render(
-  //   <div>hello</div>,
-  // <Modal className="primary">
-  //     <ModalOverlay />
-  //     <ModalContainer>
-  //         <ModalHeader>Demo title</ModalHeader>
-  //         <ModalBody> content</ModalBody>
-  //         <ModalFooter>Footer</ModalFooter>
-  //     </ModalContainer>
-  // </Modal>
-  <Badges className="btn">Button</Badges>,
-  document.getElementById("root")
-);
+<div>hello</div>
+    , document.getElementById("root"))
