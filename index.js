@@ -17,12 +17,13 @@ import Panel from "./components/Panel";
 import Divider from "./components/Divider";
 import Display from "./components/Display";
 import Lables from "./components/Lables";
+import Figures from "./components/Figure";
 
 
 
 ReactDOM.render(
   <div>hello
-  <Lables> Hello Neeraj</Lables>
+  <Figures src=" " captionText="hello Neeraj"></Figures>
   </div>
 
   , document.getElementById("root"))

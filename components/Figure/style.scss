@@ -1,0 +1,27 @@
+@import "~spectre.css/src/spectre.scss";
+
+.figure{
+    @extend .figure;
+}
+.img-responsive {
+    @extend .img-responsive;
+}
+
+.figure-caption {
+    @extend .figure-caption;
+}
+
+.center{
+    @extend .figure-caption;
+    @extend .text-center;
+}
+
+.left{
+    @extend .figure-caption;
+    @extend .text-left;
+}
+
+.right{
+    @extend .figure-caption;
+    @extend .text-right;
+}
