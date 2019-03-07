@@ -1,0 +1,9 @@
+@import "~spectre.css/src/spectre.scss";
+
+
+.c-hand{@extend .c-hand; }
+.c-move{@extend .c-move;}
+.c-zoom-in{@extend .c-zoom-in;}
+.c-zoom-out{@extend .c-zoom-out;}
+.c-not-allowed{@extend .c-not-allowed;}
+.c-auto{@extend .c-auto;}

@@ -27,10 +27,11 @@ import Popover from "./components/Popover";
 import PopoverContainer from "./components/PopoverContainer";
 import Accordian from "./components/Accordian";
 import AccordianBody from "./components/AccordianBody";
+import Divider from "./components/Divider";
+import Display from "./components/Display";
+import Lables from "./components/Lables";
 
 
 ReactDOM.render(
-    <div>hello
-    </div>
-
+    <div>hello</div>
     , document.getElementById("root"))

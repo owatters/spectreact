@@ -1,0 +1,24 @@
+@import "~spectre.css/src/spectre.scss";
+
+.circle {
+    @extend .s-circle;
+    background-color: cyan;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: center; 
+    align-items: center;
+}
+.round {
+    @extend .s-rounded;
+    background-color: cyan;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: center; 
+    align-items: center;
+}
