@@ -11,7 +11,9 @@
   "main": "index.js",
   "scripts": {
     "serve": "parcel serve index.html --port 8888 --open --log-level 4 ",
-    "build": "parcel build index.html --no-content-hash"
+    "build": "parcel build index.html --no-content-hash",
+    "preserve": "npm install",
+    "prebuild": "npm install"
   },
   "author": "Amit Gupta <amit@owatters.com>",
   "license": "ISC",
