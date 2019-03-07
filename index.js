@@ -1,5 +1,5 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
-import Button from "./components/Button";
+import Input from "./components/Input";
 
-ReactDOM.render(<Button className="primary"> Test </Button> , document.getElementById("root"))
+ReactDOM.render(<Input className="primary"> Test </Input> , document.getElementById("root"))

@@ -3,11 +3,15 @@
   "version": "1.0.0",
   "repository": "git@github.com:owatters/spectreact.git",
   "description": "React components using Spectre.css",
-  "keywords":["spectre.css", "parcel", "react "],
+  "keywords": [
+    "spectre.css",
+    "parcel",
+    "react "
+  ],
   "main": "index.js",
   "scripts": {
-    "serve":"parcel serve index.html --port 8888 --open --log-level 4 ",
-    "build":"parcel build index.html --no-content-hash"
+    "serve": "parcel serve index.html --port 8888 --open --log-level 4 ",
+    "build": "parcel build index.html --no-content-hash"
   },
   "author": "Amit Gupta <amit@owatters.com>",
   "license": "ISC",
