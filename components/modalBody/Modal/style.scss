@@ -1,0 +1,8 @@
+@import "~spectre.css/src/spectre.scss";
+
+.modal {
+    @extend .modal;
+}
+.primary{
+    @extend .active;
+}

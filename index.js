@@ -14,8 +14,11 @@ import TileContent from "./components/TileContent";
 import TileTitle from "./components/TileTitle";
 import TileSubtitle from "./components/TileSubtitle";
 import Panel from "./components/Panel";
+import Divider from "./components/Divider";
 
 ReactDOM.render(
-    <div>hello</div>
+  <div>hello
+      <Divider data="OR" orientation="vertical"></Divider>
+  </div>
 
-    , document.getElementById("root"))
+  , document.getElementById("root"))
