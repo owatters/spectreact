@@ -18,6 +18,7 @@
   "author": "Amit Gupta <amit@owatters.com>",
   "license": "ISC",
   "dependencies": {
+    "font-awesome": "^4.7.0",
     "react": "16.8.4",
     "react-dom": "16.8.4"
   },

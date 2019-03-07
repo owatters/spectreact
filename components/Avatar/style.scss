@@ -1,0 +1,17 @@
+@import "~spectre.css/src/spectre.scss";
+
+.avatar {
+    @extend .avatar;
+}
+.online{
+    @extend .avatar-presence;
+    @extend .online;
+}
+.away{
+    @extend .avatar-presence;
+    @extend .away;
+}
+.busy{
+    @extend .avatar-presence;
+    @extend .busy;
+}
