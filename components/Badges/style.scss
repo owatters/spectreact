@@ -1,0 +1,7 @@
+@import "~spectre.css/src/spectre.scss";
+
+.badge {
+  @extend .btn;
+  @extend .badge;
+  margin-top: 6%;
+}

@@ -1,0 +1,9 @@
+@import "~spectre.css/src/spectre.scss";
+
+.step {
+  .step-item {
+    @extend .step-item;
+    @extend .active;
+    margin-top: 6%;
+  }
+}

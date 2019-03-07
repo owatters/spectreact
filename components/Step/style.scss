@@ -1,0 +1,6 @@
+@import "~spectre.css/src/spectre.scss";
+
+.step {
+  @extend .step;
+  @extend .active;
+}
