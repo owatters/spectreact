@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.autoSave": "onWindowChange",
+		"editor.insertSpaces": false,
+		"editor.wordWrap": "on",
+		"editor.formatOnPaste": true,
+		"editor.formatOnSave": true,
+		"editor.formatOnType": true,
+		"workbench.list.multiSelectModifier": "alt",
+		"json.trace.server": "verbose"
+	}
+}
