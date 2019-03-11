@@ -8,7 +8,7 @@ export default class Nav extends Component {
     render() {
         return (
 
-            <ul className={(this.props.className != null ? this.props.className : "") + " nav"} >
+            <ul className={(this.props.className != null ? this.props.className : "") + " Nav"} >
                 {this.props.options.map((option) => <NavItem key={option} >
                     {option}
                 </NavItem>)}
