@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import "./style.scss";
-import "font-awesome/css/font-awesome.css";
+import "font-awesome/scss/font-awesome.scss";
 import Menu from '../Menu';
 import Button from '../Button';
 class DropDownMenu extends Component {
@@ -13,14 +13,14 @@ class DropDownMenu extends Component {
     render() {
         return (
             <div className={this.state.className + " dropDown"}>
-  <Button className="dropdown-toggle" tabindex="0">
-    <span className="btnText">{this.props.label}</span>
-      <i class="icon fa fa-angle-down" ></i>
-    </Button>
-    <Menu>
-    {this.props.children }
-    </Menu>
-    </div>
+                <Button className="dropdown-toggle" tabindex="0">
+                    <span className="btnText">{this.props.label}</span>
+                    <i class="icon fa fa-angle-down" ></i>
+                </Button>
+                <Menu>
+                    {this.props.children}
+                </Menu>
+            </div>
         );
     }
 }
