@@ -36,11 +36,11 @@ import AccordianBody from "./components/AccordianBody";
 import Divider from "./components/Divider";
 import Lables from "./components/Lables";
 import Figures from "./components/Figure";
-
+import Breadcrumb from "./components/Breadcrumb";
 
 ReactDOM.render(
-  <div>hello
-  <Figures src=" " captionText="hello Neeraj"></Figures>
+  <div>
+    <Breadcrumb options={["hello", "hi"]}></Breadcrumb>
   </div>
 
   , document.getElementById("root"))

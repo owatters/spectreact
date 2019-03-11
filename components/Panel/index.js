@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import ReactDOM from "react-dom";
 
 import "./style.scss";
-import Button from "../Button";
+
 
 export default class Panel extends Component {
   constructor(props) {
