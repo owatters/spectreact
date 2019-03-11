@@ -18,15 +18,7 @@ export default class EmptyStates extends Component {
     return (
       <div className={this.state.className + "Empty"}>
         {this.props.children}
-        {/* <EmptyIcon>
-       
-          <i className="icon fa fa-eye"></i>
-        </EmptyIcon>
-        <EmptyTitle>You have no new messages</EmptyTitle>
-        <EmptySubtitle>Click the button to start a conversation.</EmptySubtitle>
-        < EmptyAction >
-          <Button>Send a message</Button>
-        </EmptyAction> */}
+
       </div >
     );
   }
