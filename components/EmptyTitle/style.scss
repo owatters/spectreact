@@ -1,0 +1,6 @@
+@import "~spectre.css/src/spectre.scss";
+
+.EmptyTitle {
+    @extend h5;
+    @extend .empty-title;
+}

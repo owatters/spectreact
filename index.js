@@ -50,4 +50,4 @@ ReactDOM.render(
 </Popover>
   </div>
 
-  , document.getElementById("root"))
+    , document.getElementById("root"))
