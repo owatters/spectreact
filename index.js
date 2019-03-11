@@ -45,19 +45,15 @@ import EmptySubtitle from "./components/EmptySubtitle";
 import EmptyAction from "./components/EmptyAction";
 
 ReactDOM.render(
-  <div>
-    {/* <Nav options={["hello", "higit "]}></Nav> */}
-    <EmptyState> <EmptyIcon>
-
-      <i className="icon fa fa-eye"></i>
-    </EmptyIcon>
-      <EmptyTitle>You have no new messages</EmptyTitle>
-      <EmptySubtitle>Click the button to start a conversation.</EmptySubtitle>
-      < EmptyAction >
-        <Button>Send a message</Button>
-      </EmptyAction>
-
-    </EmptyState>
+  <div>hello
+<Popover className="PopOverLeft">
+<button >Hello</button>
+<PopoverContainer>
+  <Card>
+    helodfgfdg
+    </Card>
+  </PopoverContainer>
+</Popover>
   </div>
 
     , document.getElementById("root"))

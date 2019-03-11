@@ -1,6 +1,23 @@
 @import "~spectre.css/src/spectre.scss";
 
-.popover {
+
+.PopOver{
     @extend .popover;
-    margin:200px;
 }
+.PopOverTop {
+    @extend .popover;
+}
+
+.PopOverRight {
+    @extend .popover-right;
+}
+
+.PopOverLeft {
+    @extend .popover-left;
+}
+
+.PopOverBottom {
+    @extend .popover-bottom;
+}
+
+
