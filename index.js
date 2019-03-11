@@ -40,7 +40,14 @@ import Figures from "./components/Figure";
 
 ReactDOM.render(
   <div>hello
-  <Figures src=" " captionText="hello Neeraj"></Figures>
+<Popover className="PopOverLeft">
+<button >Hello</button>
+<PopoverContainer>
+  <Card>
+    helodfgfdg
+    </Card>
+  </PopoverContainer>
+</Popover>
   </div>
 
   , document.getElementById("root"))
