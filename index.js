@@ -35,7 +35,6 @@ import Accordian from "./components/Accordian";
 import AccordianBody from "./components/AccordianBody";
 import Divider from "./components/Divider";
 import Lables from "./components/Lables";
-<<<<<<< Updated upstream
 import Figures from "./components/Figure";
 import Breadcrumb from "./components/Breadcrumb";
 import Nav from "./components/Nav";
@@ -60,15 +59,5 @@ ReactDOM.render(
 
     </EmptyState>
   </div>
-=======
-import Figure from "./components/Figure";
-import Image from "./components/Image";
-
-
-ReactDOM.render(
-    <div>
-        <Image src="https://www.cleverfiles.com/howto/wp-content/uploads/2018/03/minion.jpg" />
-    </div>
->>>>>>> Stashed changes
 
     , document.getElementById("root"))
